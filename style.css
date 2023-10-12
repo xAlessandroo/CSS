@@ -1,0 +1,50 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10rem 20rem 10rem;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+  grid-column: span 3;
+}
+
+#orange {
+  background-color: #ffc788;
+  grid-row: 3;
+  grid-column: span 2;
+}
+
+#yellow {
+  background-color: #ffff92;
+}
+
+#red {
+  background-color: #ff919c;
+}
+
+#blue {
+  background-color: #98d2ff;
+  grid-row: span 2;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  margin: 1em;
+  width: 40px;
+}
