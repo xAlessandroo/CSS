@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-header > nav, nav ul{    
+header > nav, nav ul{
+    height: 40px;    
     background-color: rgb(43, 42, 75);
     color: white;
     display: flex;
@@ -72,7 +73,14 @@ input[type="text"]{
     display: none;
 }
 
+.ham-icon{
+    display: none;
+}
+
 @media (max-width: 768px){
+    header>nav>ul, header h1{
+        display: none;
+    }
     .menu{
         display: flex;
         flex-direction: column;
@@ -92,4 +100,23 @@ input[type="text"]{
         flex-wrap: wrap;
         list-style-type: none;
     }
+
+    .ham-icon{
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30px;
+    color: black;
+    justify-content:space-evenly;
+    margin: 0 20px;
 }
+
+.bar {
+    background-color: black;
+    font-size: 40px;
+    height: 5px;
+    border-radius: 50px;
+  }
+}
+
