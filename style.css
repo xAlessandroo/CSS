@@ -64,15 +64,6 @@ input[type="text"]{
     margin-left: 100%;
 }
 
-.menu > ol > img{
-    height: 50px;
-    width: 50px;
-}
-
-.menu{
-    display: none;
-}
-
 .ham-icon{
     display: none;
 }
@@ -81,26 +72,6 @@ input[type="text"]{
     header>nav>ul, header h1{
         display: none;
     }
-    .menu{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu h3{
-        margin: 20px 0;
-        align-self: center;
-    }
-
-    .menu > ol {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: bold;
-        margin-left: 20px;
-        flex-wrap: wrap;
-        list-style-type: none;
-    }
-
     .ham-icon{
     background-color: inherit;
     display: flex;
