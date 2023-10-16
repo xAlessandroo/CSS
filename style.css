@@ -62,3 +62,7 @@ input[type="text"]{
     display: flex;
     margin-left: 100%;
 }
+
+@media (max-width: 768px){
+    
+}
