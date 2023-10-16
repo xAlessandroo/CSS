@@ -69,15 +69,20 @@ header{
     font-size: 18px;
 }
 
+@media(max-width: 768px){
+    section{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+}
+
 @media(max-width: 375px){
     section{
         flex-wrap: wrap;
     }
+    .card{
+        width: 100%;
+    }
 }
-
-@media(max-width: 768px){
-    /* Puoi sarmi qualche suggerimento su come farlo */
-}
-
-
-
